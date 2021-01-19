@@ -1,0 +1,28 @@
+{
+  "name": "platziverse-db",
+  "version": "1.0.0",
+  "description": "A simple IoT platform - DB module",
+  "main": "index.js",
+  "scripts": {
+    "lint": "standard",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rost929/platziverse.git"
+  },
+  "author": "rost929",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rost929/platziverse/issues"
+  },
+  "homepage": "https://github.com/rost929/platziverse#readme",
+  "devDependencies": {
+    "standard": "^16.0.3"
+  },
+  "dependencies": {
+    "pg": "^8.5.1",
+    "pg-hstore": "^2.3.3",
+    "sequelize": "^6.3.5"
+  }
+}
